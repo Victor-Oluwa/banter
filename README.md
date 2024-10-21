@@ -1,4 +1,4 @@
-<img src="shots/Banter_logo.png" alt="Banter Logo" width="500" style="display: block; margin: 0 auto;"/>
+<img src="shots/banter_logoo.png" alt="Banter Logo" width="500" style="display: block; margin: 0 auto;"/>
 
 # Banter - Your Next-Generation Note-Taking App 📝
 
