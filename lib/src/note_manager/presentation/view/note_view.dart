@@ -53,7 +53,7 @@ class _NoteViewState extends ConsumerState<NoteView>
     folder = Get.arguments;
     _welcomeAnimationController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 1),
+      duration: const Duration(milliseconds: 600),
     );
     _welcomeAnimation = WelcomeAnimation(_welcomeAnimationController);
     // authenticationBloc = ref.read(authBlocProvider);

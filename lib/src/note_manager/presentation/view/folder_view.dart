@@ -471,7 +471,7 @@ class _FolderViewState extends ConsumerState<FolderView>
     _searchController.addListener(_searchFolder);
     _rotateController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 2),
+      duration: const Duration(milliseconds: 600),
     );
     _welcomeAnimationController.forward();
     // getAllFolders();

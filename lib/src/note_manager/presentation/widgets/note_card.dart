@@ -107,6 +107,7 @@ class _NoteCardState extends ConsumerState<NoteCard> {
             size: widget.width * 0.06,
           ),
            BanterTextWidget(
+             size: widget.width * 0.04,
              overflow: TextOverflow.ellipsis,
             text: _getSubText(),
             color: Colors.grey,

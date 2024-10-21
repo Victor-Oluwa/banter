@@ -3,18 +3,14 @@ import 'dart:developer';
 import 'package:banter/core/helpers/crypto_helper.dart';
 import 'package:banter/core/local_database/hive_boxes.dart';
 import 'package:banter/core/res/color.dart';
-import 'package:banter/core/services/injection/auth_injection.dart';
 import 'package:banter/core/utils/show_dialog.dart';
-import 'package:banter/core/widgets/noted_text_widget.dart';
 import 'package:banter/src/auth_manager/presentation/bloc/auth_bloc.dart';
-import 'package:banter/src/auth_manager/presentation/view/login.dart';
 import 'package:banter/src/note_manager/presentation/view/note_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-// import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'dart:io'; // for Socket
+// for Socket
 import 'package:dio/dio.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:get/get.dart';
@@ -54,8 +50,9 @@ class _VerificationScreenState extends ConsumerState<VerificationScreen> {
         !hasInternet) {
       log('Going to note view..');
 
-      // Get.offAll(() => const NoteView());
-      Get.offAll(() => const NoteView());
+      Future.delayed(const Duration(seconds: 2), (){
+        Get.offAll(() => const NoteView());
+      });
       return;
     }
     authBloc.add(GetSecretKeyEvent(userHash));
@@ -107,7 +104,10 @@ class _VerificationScreenState extends ConsumerState<VerificationScreen> {
 
           if (state is AuthError) {
             log('Error: ${state.message}');
-            Get.offAll(() => const NoteView());
+
+            Future.delayed(const Duration(seconds: 2), (){
+              Get.offAll(() => const NoteView());
+            });
           }
         },
         builder: (context, state) {

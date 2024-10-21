@@ -143,7 +143,6 @@ _defaultQuoteTextBlocStyle({
       fontFamily: BanterFonts.balooBhai,
       fontSize: fontSize,
       fontWeight: fontWeight,
-      fontStyle: FontStyle.italic
     ),
     baseHorizontalSpacing,
     baseVerticalSpacing,
