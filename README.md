@@ -1,3 +1,5 @@
+<img src="shots/Banter_logo.png" alt="Banter Logo" width="500" style="display: block; margin: 0 auto;"/>
+
 # Banter - Your Next-Generation Note-Taking App 📝
 
 Welcome to **Banter**—a powerful, feature-rich note-taking app built with Flutter that allows you to stay organized, sync across devices, and enjoy an effortless note management experience. Whether you’re jotting down a quick idea or organizing your projects, **Banter** brings simplicity and productivity together with a delightful interface.
