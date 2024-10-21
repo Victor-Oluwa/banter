@@ -27,13 +27,13 @@ Welcome to **Banter**—a powerful, feature-rich note-taking app built with Flut
 ## 🚀 Key Features
 
 ### 📄 Rich Text Editor
-**Banter** includes an easy-to-use and intuitive rich text editor powered by the **Flutter Quill** package. You can:
+**Banter** includes an easy-to-use and intuitive rich text editor. You can:
 - **Bold**, *italicize*, or **_combine both_** for emphasis.
 - Organize content with headings, bullet points, numbered lists, and quotes.
 - Create checklists to track to-dos or ideas.
-- Underline or strikethrough text for more customization.
+- Underline or strikethrough text for more customization and many more.
 
-![Home Screen showing all notes](screenshot_home_screen.png)
+![Home Screen showing all notes](shots/banter_home.png)
 
 ### 📁 Organize Notes into Folders (Boxes)
 Stay organized by categorizing your notes into **folders** (referred to as "Boxes" within the app). Simply create a folder and drag-and-drop notes for seamless organization.
@@ -41,7 +41,7 @@ Stay organized by categorizing your notes into **folders** (referred to as "Boxe
 - Quickly move notes between folders.
 - See all notes in a folder at a glance.
 
-![Add to Folder Pop-up](screenshot_add_to_folder_popup.png)
+![Add to Folder Pop-up](shots/add_to_box.png)
 
 ### 🔄 Sync Across Devices
 Never lose your notes! **Banter** includes a built-in **syncing feature** powered by a **Node.js backend** to ensure all your notes are saved securely in the cloud and can be accessed across your devices.
@@ -49,7 +49,10 @@ Never lose your notes! **Banter** includes a built-in **syncing feature** powere
 - Secure note sync with cloud storage.
 - Seamlessly access notes from any device.
 
-![Sync Note Pop-up](screenshot_sync_popup.png)
+Link to backend sourcecode
+- [Node.js backend](https://github.com/Victor-Oluwa/banter-server.git)
+
+![Sync Note Pop-up](shots/banter_sync.png)
 
 ### 💾 Local Storage with Hive
 Even when offline, you can continue working with your notes. **Banter** stores all notes locally using **Hive**, a fast and lightweight NoSQL database for Flutter.
@@ -71,13 +74,13 @@ For state management, **Banter** utilizes:
 ### 🛠️ Customizable Notes with a Rich Toolbar
 Access a robust toolbar with customizable options like text formatting, adding checklists, and changing headings directly from the editor.
 
-![Editor Screen with Toolbar Expanded](screenshot_editor_tool_panel.png)
+![Editor Screen with Toolbar Expanded](shots/banter_readme_with_tools.png)
 
 ### 📝 Sample Note for Easy Onboarding
 When new users download the app, they are greeted with a default **Welcome Note** that highlights Banter's rich text formatting capabilities and demonstrates how notes can be styled. This note serves as an excellent introduction to the app's potential.
 
-![Default Welcome Note](screenshot_welcome_note_1.png)
-![Default Welcome Note (Scrolled)](screenshot_welcome_note_2.png)
+![Default Welcome Note](shots/banter_readme.png)
+![Default Welcome Note (Scrolled)](shots/banter_readme2.png)
 
 ---
 
@@ -86,7 +89,6 @@ When new users download the app, they are greeted with a default **Welcome Note*
 **Banter** was built with a variety of cutting-edge technologies to ensure optimal performance, maintainability, and scalability:
 
 - **Flutter & Dart**: The core technologies behind Banter, providing a smooth, cross-platform experience.
-- **Flutter Quill**: A rich text editor package used for creating and editing notes.
 - **Hive**: A lightweight, fast NoSQL database for local storage.
 - **Node.js**: Backend for syncing notes across devices using cloud services.
 - **Bloc**: For managing business logic and state in the app.
@@ -101,56 +103,22 @@ When new users download the app, they are greeted with a default **Welcome Note*
 Here are a few screenshots to give you a glimpse of what **Banter** can do:
 
 1. **Home Screen**: See all your notes at a glance.  
-   ![Home Screen](screenshot_home_screen.png)
+   ![Home Screen](shots/banter_home.png)
 
 2. **Welcome Note**: An example of a styled note to introduce new users.  
-   ![Welcome Note](screenshot_welcome_note_1.png)  
-   ![Welcome Note Continued](screenshot_welcome_note_2.png)
+   ![Welcome Note](shots/banter_readme.png)  
+   ![Welcome Note Continued](shots/banter_readme2.png)
 
 3. **Rich Text Editor**: Customize your notes with bold, italics, lists, checkboxes, and more using the toolbar.  
-   ![Editor with Tool Panel Expanded](screenshot_editor_tool_panel.png)
+   ![Editor with Tool Panel Expanded](shots/banter_readme_with_tools.png)
 
 4. **Sync Pop-up**: Seamlessly sync notes to the cloud for access across devices.  
-   ![Sync Note Pop-up](screenshot_sync_popup.png)
+   ![Sync Note Pop-up](shots/banter_sync.png)
 
 5. **Add to Folder**: Organize your notes by adding them to different folders (boxes).  
-   ![Add to Folder Pop-up](screenshot_add_to_folder_popup.png)
+   ![Add to Folder Pop-up](shots/add_to_box.png)
 
 ---
 
 ## 🚀 How to Get Started
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/banter.git
-   ```
-
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-
-3. Start the app:
-   ```bash
-   flutter run
-   ```
-
----
-
-## 🙌 Contributing
-
-Contributions are welcome! Feel free to open issues, submit feature requests, or create pull requests.
-
----
-
-## 🛡 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Thank you for checking out **Banter**! We hope you enjoy using the app as much as we enjoyed building it. Feel free to explore, take notes, and stay organized like never before. 😊
-
----
-
-This README emphasizes the app's practical features while also highlighting the solid architecture and modern technologies used in its development. Including the technical details with clean architecture, state management tools, and the well-chosen stack will definitely impress employers.
