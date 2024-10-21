@@ -1,25 +1,3 @@
-# banter
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-Here's a polished and impressive README for your Flutter app **Banter**, highlighting its features, technical stack, and design principles. This will help showcase your skills to potential employers, while also being informative for users who want to understand what your app is capable of.
-
----
-
 # Banter - Your Next-Generation Note-Taking App 📝
 
 Welcome to **Banter**—a powerful, feature-rich note-taking app built with Flutter that allows you to stay organized, sync across devices, and enjoy an effortless note management experience. Whether you’re jotting down a quick idea or organizing your projects, **Banter** brings simplicity and productivity together with a delightful interface.
@@ -34,6 +12,7 @@ Welcome to **Banter**—a powerful, feature-rich note-taking app built with Flut
 - Underline or strikethrough text for more customization and many more.
 
 **Home Screen showing all notes**: See all your notes at a glance.  
+
 <img src="shots/banter_home.png" alt="Home Screen" width="400"/>
 
 ### 📁 Organize Notes into Folders (Boxes)
@@ -42,7 +21,9 @@ Stay organized by categorizing your notes into **folders** (referred to as "Boxe
 - Quickly move notes between folders.
 - See all notes in a folder at a glance.
 
-**Add to Folder**: <img src="shots/add_to_box.png" alt="Add to Folder Pop-up" width="400"/>
+**Add to Folder**: 
+
+<img src="shots/add_to_box.png" alt="Add to Folder Pop-up" width="200"/>
 
 ### 🔄 Sync Across Devices
 Never lose your notes! **Banter** includes a built-in **syncing feature** powered by a **Node.js backend** to ensure all your notes are saved securely in the cloud and can be accessed across your devices.
@@ -53,7 +34,9 @@ Never lose your notes! **Banter** includes a built-in **syncing feature** powere
 Link to backend sourcecode
 - [Node.js backend](https://github.com/Victor-Oluwa/banter-server.git)
 
-**Sync Pop-up**: <img src="shots/banter_sync.png" alt="Sync Note Pop-up" width="400"/>
+**Sync Pop-up**: 
+
+<img src="shots/banter_sync.png" alt="Sync Note Pop-up" width="200"/>
 
 ### 💾 Local Storage with Hive
 Even when offline, you can continue working with your notes. **Banter** stores all notes locally using **Hive**, a fast and lightweight NoSQL database for Flutter.
@@ -75,13 +58,16 @@ For state management, **Banter** utilizes:
 ### 🛠️ Customizable Notes with a Rich Toolbar
 Access a robust toolbar with customizable options like text formatting, adding checklists, and changing headings directly from the editor.
 
-**Rich Text Editor**: <img src="shots/banter_readme_with_tools.png" alt="Editor with Tool Panel Expanded" width="400"/>
+**Rich Text Editor**: 
+
+<img src="shots/banter_readme_with_tools.png" alt="Editor with Tool Panel Expanded" width="200"/>
 
 ### 📝 Sample Note for Easy Onboarding
 When new users download the app, they are greeted with a default **Welcome Note** that highlights Banter's rich text formatting capabilities and demonstrates how notes can be styled. This note serves as an excellent introduction to the app's potential.
 
-**Welcome Note**: <img src="shots/banter_readme.png" alt="Welcome Note" width="400"/>
-**Welcome Note(Scrolled)**: <img src="shots/banter_readme2.png" alt="Welcome Note Continued" width="400"/>
+**Welcome Note**: <img src="shots/banter_readme.png" alt="Welcome Note" width="200"/>
+
+**Welcome Note(Scrolled)**: <img src="shots/banter_readme2.png" alt="Welcome Note Continued" width="200"/>
 
 ---
 
@@ -103,21 +89,31 @@ When new users download the app, they are greeted with a default **Welcome Note*
 
 Here are a few screenshots to give you a glimpse of what **Banter** can do:
 
-1. **Home Screen**: See all your notes at a glance.  
-   <img src="shots/banter_home.png" alt="Home Screen" width="400"/>
+1. **Home Screen**: See all your notes at a glance. 
+
+   <img src="shots/banter_home.png" alt="Home Screen" width="200"/>
+
 
 2. **Welcome Note**: An example of a styled note to introduce new users.  
-   <img src="shots/banter_readme.png" alt="Welcome Note" width="400"/>  
-   <img src="shots/banter_readme2.png" alt="Welcome Note Continued" width="400"/>
 
-3. **Rich Text Editor**: Customize your notes with bold, italics, lists, checkboxes, and more using the toolbar.  
-   <img src="shots/banter_readme_with_tools.png" alt="Editor with Tool Panel Expanded" width="400"/>
+   <img src="shots/banter_readme.png" alt="Welcome Note" width="200"/>
+   
+   <img src="shots/banter_readme2.png" alt="Welcome Note Continued" width="200"/>
+
+
+3. **Rich Text Editor**: Customize your notes with bold, italics, lists, checkboxes, and more using the toolbar. 
+
+   <img src="shots/banter_readme_with_tools.png" alt="Editor with Tool Panel Expanded" width="200"/>
+
 
 4. **Sync Pop-up**: Seamlessly sync notes to the cloud for access across devices.  
-   <img src="shots/banter_sync.png" alt="Sync Note Pop-up" width="400"/>
+
+   <img src="shots/banter_sync.png" alt="Sync Note Pop-up" width="200"/>
+
 
 5. **Add to Folder**: Organize your notes by adding them to different folders (boxes).  
-   <img src="shots/add_to_box.png" alt="Add to Folder Pop-up" width="400"/>
+
+   <img src="shots/add_to_box.png" alt="Add to Folder Pop-up" width="200"/>
 
 
 ---
