@@ -13,7 +13,7 @@ Welcome to **Banter**—a powerful, feature-rich note-taking app built with Flut
 
 **Home Screen showing all notes**: See all your notes at a glance.  
 
-<img src="shots/banter_home.png" alt="Home Screen" width="400"/>
+<img src="shots/banter_home.png" alt="Home Screen" width="200"/>
 
 ### 📁 Organize Notes into Folders (Boxes)
 Stay organized by categorizing your notes into **folders** (referred to as "Boxes" within the app). Simply create a folder and drag-and-drop notes for seamless organization.
@@ -65,9 +65,14 @@ Access a robust toolbar with customizable options like text formatting, adding c
 ### 📝 Sample Note for Easy Onboarding
 When new users download the app, they are greeted with a default **Welcome Note** that highlights Banter's rich text formatting capabilities and demonstrates how notes can be styled. This note serves as an excellent introduction to the app's potential.
 
-**Welcome Note**: <img src="shots/banter_readme.png" alt="Welcome Note" width="200"/>
+**Welcome Note**: 
 
-**Welcome Note(Scrolled)**: <img src="shots/banter_readme2.png" alt="Welcome Note Continued" width="200"/>
+<img src="shots/banter_readme.png" alt="Welcome Note" width="200"/>
+
+
+**Welcome Note(Scrolled)**: 
+
+<img src="shots/banter_readme2.png" alt="Welcome Note Continued" width="200"/>
 
 ---
 
