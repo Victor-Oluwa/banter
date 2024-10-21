@@ -33,7 +33,8 @@ Welcome to **Banter**—a powerful, feature-rich note-taking app built with Flut
 - Create checklists to track to-dos or ideas.
 - Underline or strikethrough text for more customization and many more.
 
-![Home Screen showing all notes](shots/banter_home.png)
+**Home Screen showing all notes**: See all your notes at a glance.  
+<img src="shots/banter_home.png" alt="Home Screen" width="400"/>
 
 ### 📁 Organize Notes into Folders (Boxes)
 Stay organized by categorizing your notes into **folders** (referred to as "Boxes" within the app). Simply create a folder and drag-and-drop notes for seamless organization.
@@ -41,7 +42,7 @@ Stay organized by categorizing your notes into **folders** (referred to as "Boxe
 - Quickly move notes between folders.
 - See all notes in a folder at a glance.
 
-![Add to Folder Pop-up](shots/add_to_box.png)
+**Add to Folder**: <img src="shots/add_to_box.png" alt="Add to Folder Pop-up" width="400"/>
 
 ### 🔄 Sync Across Devices
 Never lose your notes! **Banter** includes a built-in **syncing feature** powered by a **Node.js backend** to ensure all your notes are saved securely in the cloud and can be accessed across your devices.
@@ -52,7 +53,7 @@ Never lose your notes! **Banter** includes a built-in **syncing feature** powere
 Link to backend sourcecode
 - [Node.js backend](https://github.com/Victor-Oluwa/banter-server.git)
 
-![Sync Note Pop-up](shots/banter_sync.png)
+**Sync Pop-up**: <img src="shots/banter_sync.png" alt="Sync Note Pop-up" width="400"/>
 
 ### 💾 Local Storage with Hive
 Even when offline, you can continue working with your notes. **Banter** stores all notes locally using **Hive**, a fast and lightweight NoSQL database for Flutter.
@@ -74,13 +75,13 @@ For state management, **Banter** utilizes:
 ### 🛠️ Customizable Notes with a Rich Toolbar
 Access a robust toolbar with customizable options like text formatting, adding checklists, and changing headings directly from the editor.
 
-![Editor Screen with Toolbar Expanded](shots/banter_readme_with_tools.png)
+**Rich Text Editor**: <img src="shots/banter_readme_with_tools.png" alt="Editor with Tool Panel Expanded" width="400"/>
 
 ### 📝 Sample Note for Easy Onboarding
 When new users download the app, they are greeted with a default **Welcome Note** that highlights Banter's rich text formatting capabilities and demonstrates how notes can be styled. This note serves as an excellent introduction to the app's potential.
 
-![Default Welcome Note](shots/banter_readme.png)
-![Default Welcome Note (Scrolled)](shots/banter_readme2.png)
+**Welcome Note**: <img src="shots/banter_readme.png" alt="Welcome Note" width="400"/>
+**Welcome Note(Scrolled)**: <img src="shots/banter_readme2.png" alt="Welcome Note Continued" width="400"/>
 
 ---
 
@@ -103,22 +104,21 @@ When new users download the app, they are greeted with a default **Welcome Note*
 Here are a few screenshots to give you a glimpse of what **Banter** can do:
 
 1. **Home Screen**: See all your notes at a glance.  
-   ![Home Screen](shots/banter_home.png)
+   <img src="shots/banter_home.png" alt="Home Screen" width="400"/>
 
 2. **Welcome Note**: An example of a styled note to introduce new users.  
-   ![Welcome Note](shots/banter_readme.png)  
-   ![Welcome Note Continued](shots/banter_readme2.png)
+   <img src="shots/banter_readme.png" alt="Welcome Note" width="400"/>  
+   <img src="shots/banter_readme2.png" alt="Welcome Note Continued" width="400"/>
 
 3. **Rich Text Editor**: Customize your notes with bold, italics, lists, checkboxes, and more using the toolbar.  
-   ![Editor with Tool Panel Expanded](shots/banter_readme_with_tools.png)
+   <img src="shots/banter_readme_with_tools.png" alt="Editor with Tool Panel Expanded" width="400"/>
 
 4. **Sync Pop-up**: Seamlessly sync notes to the cloud for access across devices.  
-   ![Sync Note Pop-up](shots/banter_sync.png)
+   <img src="shots/banter_sync.png" alt="Sync Note Pop-up" width="400"/>
 
 5. **Add to Folder**: Organize your notes by adding them to different folders (boxes).  
-   ![Add to Folder Pop-up](shots/add_to_box.png)
+   <img src="shots/add_to_box.png" alt="Add to Folder Pop-up" width="400"/>
+
 
 ---
-
-## 🚀 How to Get Started
 
