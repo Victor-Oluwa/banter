@@ -60,14 +60,14 @@ getDefaultTextStyle(double width) {
       vertiSpaceRight: 1.5,
       fontSize: width * 0.03,
     ),
-    leading: _defaultTextBlocStyle(
-      horiSpaceLeft: 0.0,
-      horiSpaceRight: 0.0,
-      lineSpaceLeft: 0.0,
-      lineSpaceRight: 0.0,
-      vertiSpaceLeft: 0,
-      vertiSpaceRight: 1.5,
-      fontSize: width * 0.03,
+    leading: _defaultLeadingStyle(
+      // horiSpaceLeft: 0.0,
+      // horiSpaceRight: 0.0,
+      // lineSpaceLeft: 0.0,
+      // lineSpaceRight: 0.0,
+      // vertiSpaceLeft: 0,
+      // vertiSpaceRight: 1.5,
+      // fontSize: width * 0.03,
     ),
     code: _defaultCodeTextBlocStyle(
       horiSpaceLeft: 0.0,
@@ -94,6 +94,24 @@ getDefaultTextStyle(double width) {
 
   );
 
+}
+
+_defaultLeadingStyle(){
+  final baseStyle = TextStyle(
+    color: Colors.yellow,
+    fontSize: 16,
+    height: 1.15,
+    decoration: TextDecoration.none,
+  );
+  const baseHorizontalSpacing = HorizontalSpacing(0, 0);
+  const baseVerticalSpacing = VerticalSpacing(6, 0);
+  ql.DefaultTextBlockStyle(
+    baseStyle,
+    baseHorizontalSpacing,
+    VerticalSpacing.zero,
+    VerticalSpacing.zero,
+    null,
+  );
 }
 
 _defaultCodeTextBlocStyle({

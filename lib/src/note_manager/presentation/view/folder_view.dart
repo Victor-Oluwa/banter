@@ -461,7 +461,7 @@ class _FolderViewState extends ConsumerState<FolderView>
   void _initializeData() {
     _welcomeAnimationController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 1),
+      duration: const Duration(milliseconds: 600),
     );
     _welcomeAnimation = WelcomeAnimation(_welcomeAnimationController);
     noteManagerBloc = context.read<NoteManagerBloc>();
@@ -484,7 +484,7 @@ class _FolderViewState extends ConsumerState<FolderView>
       if (searchText.isNotEmpty) {
         searchedFolders = folders
             .where((folder) =>
-                folder.folderName.toLowerCase().contains(searchText))
+            folder.folderName.toLowerCase().contains(searchText))
             .toList();
       } else {
         searchedFolders = [];
@@ -578,13 +578,13 @@ class _FolderViewState extends ConsumerState<FolderView>
           if (folders.isEmpty)
             SliverToBoxAdapter(
                 child: EmptyScreen(
-              height: height,
-              width: width,
-            )),
+                  height: height,
+                  width: width,
+                )),
           if (folders.isNotEmpty)
             SliverList(
               delegate: SliverChildBuilderDelegate(
-                (context, index) {
+                    (context, index) {
                   final folder = searchedFolders.isEmpty
                       ? folders[index]
                       : searchedFolders[index];

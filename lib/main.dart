@@ -9,6 +9,7 @@ import 'package:banter/src/note_manager/domain/entity/note_entity.dart';
 import 'package:banter/src/note_manager/presentation/bloc/note_manager_bloc.dart';
 import 'package:banter/src/note_manager/presentation/listeners/auth_global_listener.dart';
 import 'package:banter/src/note_manager/presentation/listeners/notes_global_listener.dart';
+import 'package:banter/src/note_manager/presentation/utils/default_note_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -24,13 +25,17 @@ void main() async {
   Hive.registerAdapter(NoteEntityAdapter());
   Hive.registerAdapter(FolderEntityAdapter());
 
-  await Hive.openBox<NoteEntity>('notes');
+  final noteBox =await Hive.openBox<NoteEntity>('notes');
   await Hive.openBox<NoteEntity>('deletedNotes');
   await Hive.openBox<FolderEntity>('folder');
   await Hive.openBox<String>('accessToken');
   await Hive.openBox<String>('refreshToken');
   await Hive.openBox<String>('userHash');
   await Hive.openBox<DateTime>('lastSyncTime');
+  
+  if(noteBox.isEmpty){
+    noteBox.put(defaultNote.id, defaultNote);
+  }
 
   runApp(
     const ProviderScope(

@@ -116,13 +116,13 @@ class _VerificationScreenState extends ConsumerState<VerificationScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                SizedBox(height: height*0.20,),
+                SizedBox(height: height*0.10,),
                 Image(
                   height: width * 0.50,
                   image: const AssetImage('assets/Banter_logo.png'),
                 ),
                 Image(
-                    height: width * 0.30,
+                    height: width * 0.20,
 
                     image: const AssetImage('assets/orikix.png'))
               ],

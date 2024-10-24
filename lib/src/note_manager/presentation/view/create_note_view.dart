@@ -52,6 +52,7 @@ class _CreateNoteViewState extends ConsumerState<CreateNoteView> {
       titleFromArg = argument?['note'].title;
     }
     if (bodyFromArg != null) {
+      log('$bodyFromArg');
       body = ql.Document.fromJson(bodyFromArg);
     }
     _controller = ql.QuillController(
@@ -133,7 +134,7 @@ class _CreateNoteViewState extends ConsumerState<CreateNoteView> {
     int? version;
 
     if (argument is StringMap) {
-      //Note is from folder
+      //Navigated from folder
       id = argument['note'].id;
       createdAt = argument['note'].createdAt;
       folders = argument['note'].folderIds;
